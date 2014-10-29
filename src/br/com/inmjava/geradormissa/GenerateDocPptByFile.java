@@ -13,6 +13,7 @@ import java.util.Iterator;
 
 import org.apache.poi.hslf.model.Slide;
 import org.apache.poi.hslf.model.TextBox;
+import org.apache.poi.hslf.usermodel.RichTextRun;
 import org.apache.poi.hslf.usermodel.SlideShow;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
@@ -201,6 +202,8 @@ public class GenerateDocPptByFile {
 		txtAux.append("\n---\n");
 		title.setHorizontalAlignment(TextBox.AlignCenter);
 		title.setVerticalAlignment(TextBox.AnchorMiddleCentered);
+		RichTextRun rt = title.getTextRun().getRichTextRuns()[0];
+		rt.setFontSize(80);
 	}
 
 	private static void createTitle(SlideShow ppt, String slide, StringBuffer txtAux) {
@@ -214,6 +217,28 @@ public class GenerateDocPptByFile {
 		txtAux.append(strSlide);
 		txtAux.append("\n---\n");
 		title.setHorizontalAlignment(TextBox.AlignLeft);
+		RichTextRun rt = title.getTextRun().getRichTextRuns()[0];
+		if(strSlide.length() < 71){
+			rt.setFontSize(72);
+		} else if(strSlide.length() < 81){
+			rt.setFontSize(66);
+		} else if(strSlide.length() < 103){
+			rt.setFontSize(60);
+		} else if(strSlide.length() < 115){
+			rt.setFontSize(54);
+		} else if(strSlide.length() < 155){
+			rt.setFontSize(48);
+		} else if(strSlide.length() < 193){
+			rt.setFontSize(44);
+		} else {
+			rt.setFontSize(40);
+		}
+		rt.setFontName("Arial");
+//		rt.setBold(true);
+//		rt.setItalic(true);
+//		rt.setUnderlined(true);
+//		rt.setFontColor(Color.red);
+//		rt.setAlignment(TextBox.AlignRight);
 	}
 
 }
