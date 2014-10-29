@@ -68,12 +68,19 @@ public class GeneratePptByTxtAux {
 		title.setVerticalAlignment(TextBox.AnchorMiddleCentered);
 		RichTextRun rt = title.getTextRun().getRichTextRuns()[0];
 		rt.setFontSize(80);
+		rt.setFontColor(new Color(63, 138, 112));
+		rt.setBold(true);
 	}
 
 	private static void createTitle(SlideShow ppt, StringBuffer sb) {
 		Slide s1 = ppt.createSlide();
 		TextBox title = s1.addTitle();
 		String strSlide = sb.toString();
+		boolean refrao = false;
+		if(strSlide.startsWith("$")){
+			strSlide = strSlide.substring(1);
+			refrao = true;
+		}
 		title.setText(strSlide);
 		title.setHorizontalAlignment(TextBox.AlignLeft);
 		RichTextRun rt = title.getTextRun().getRichTextRuns()[0];
@@ -93,10 +100,13 @@ public class GeneratePptByTxtAux {
 			rt.setFontSize(40);
 		}
 		rt.setFontName("Arial");
+		if(refrao){
+//			rt.setFontColor(Color.red);
+			rt.setFontColor(new Color(219, 75, 94));
+		}
 //		rt.setBold(true);
 //		rt.setItalic(true);
 //		rt.setUnderlined(true);
-//		rt.setFontColor(Color.red);
 //		rt.setAlignment(TextBox.AlignRight);
 	}
 
