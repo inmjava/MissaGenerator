@@ -1,3 +1,4 @@
+package br.com.inmjava.geradormissa;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
