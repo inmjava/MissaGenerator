@@ -1,12 +1,12 @@
-Novena;http://www.cifraclub.com.br/maria-do-rosario/louvando-a-maria/imprimir.html
-Entrada;http://www.cifraclub.com.br/padre-marcelo-rossi/reunidos-aqui/imprimir.html
+Interiorização;http://www.cifraclub.com.br/paulo-roberto/deus-esta-aqui-noite-traicoeira/imprimir.html
+Entrada;http://www.cifraclub.com.br/padre-zeca/porque-ele-vive/imprimir.html
 Penitencial;http://www.cifraclub.com.br/catolicas/kiri-eleison/imprimir.html
 Glória;http://www.cifraclub.com.br/catolicas/gloria-a-deus-nos-altos-ceus/imprimir.html
 Aleluia;http://www.cifraclub.com.br/ministerio-de-musica-jovens-em-cristo/ponho-me-a-ouvir/imprimir.html
-Salmo;http://liturgia.cancaonova.com/liturgia/30a-semana-comum-quarta-feira-29102014/
-Ofertório;http://www.cifraclub.com.br/catolicas/as-sementes-que-me-destes/imprimir.html
+Salmo;http://liturgia.cancaonova.com/liturgia/jesus-cristo-rei-do-universo-domingo-23112014/
+Ofertório;http://www.cifraclub.com.br/padre-zezinho/um-coracao-para-amar/imprimir.html
 Santo;http://www.cifraclub.com.br/catolicas/santo-deus-do-universo/imprimir.html
-Comunhão;http://www.cifraclub.com.br/catolicas/eu-vim-para-que-todos-tenham-vida/imprimir.html
-Ação de Graças;http://www.cifraclub.com.br/denise-cerqueira/renova-me/imprimir.html
-Final 1;http://www.cifraclub.com.br/paulo-roberto/quero-louvar-te/imprimir.html
-Final 2;http://www.cifraclub.com.br/catolicas/quero-louvar-te/imprimir.html
+Comunhão;http://www.cifraclub.com.br/catolicas/salmo-22-pelos-prados/imprimir.html
+Ação de Graças;http://www.cifraclub.com.br/adriana/a-chave-do-coracao/imprimir.html
+Final 1;http://www.cifraclub.com.br/dunga/agora-posso-cantar/imprimir.html
+Final 2;http://www.cifraclub.com.br/catolicas/deus-10/imprimir.html
