@@ -1,8 +1,10 @@
 package br.com.inmjava.geradormissa;
 
+import java.io.IOException;
+
 public class Main {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		if(args == null){
 			printOptions();
@@ -21,12 +23,12 @@ public class Main {
 		}
 	}
 
-	private static void gerarAPartirDeArquivoAux() {
-		
+	private static void gerarAPartirDeArquivoAux() throws IOException {
+		GeneratePptByTxtAux.main(null);
 	}
 
-	private static void gerarTudo() {
-		
+	private static void gerarTudo() throws IOException {
+		GenerateDocPptByFile.main(null);
 	}
 
 	private static void printOptions() {
