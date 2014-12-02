@@ -86,7 +86,7 @@ public class GeneratePptByTxtAux {
 		RichTextRun rt = title.getTextRun().getRichTextRuns()[0];
 		if(strSlide.length() < 71){
 			rt.setFontSize(72);
-		} else if(strSlide.length() < 81){
+		} else if(strSlide.length() < 80){
 			rt.setFontSize(66);
 		} else if(strSlide.length() < 103){
 			rt.setFontSize(60);

@@ -1,5 +1,6 @@
 package br.com.inmjava.geradormissa;
 
+import java.awt.Color;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -197,13 +198,15 @@ public class GenerateDocPptByFile {
 		Slide s1 = ppt.createSlide();
 		TextBox title = s1.addTitle();
 		String strSlide = momento;
-		title.setText("\n\n\n\n\n\n" + strSlide);
+		title.setText("\n\n\n" + strSlide);
 		txtAux.append("*"+strSlide);
 		txtAux.append("\n---\n");
 		title.setHorizontalAlignment(TextBox.AlignCenter);
 		title.setVerticalAlignment(TextBox.AnchorMiddleCentered);
 		RichTextRun rt = title.getTextRun().getRichTextRuns()[0];
 		rt.setFontSize(80);
+		rt.setFontColor(new Color(63, 138, 112));
+		rt.setBold(true);
 	}
 
 	private static void createTitle(SlideShow ppt, String slide, StringBuffer txtAux) {
@@ -220,7 +223,7 @@ public class GenerateDocPptByFile {
 		RichTextRun rt = title.getTextRun().getRichTextRuns()[0];
 		if(strSlide.length() < 71){
 			rt.setFontSize(72);
-		} else if(strSlide.length() < 81){
+		} else if(strSlide.length() < 80){
 			rt.setFontSize(66);
 		} else if(strSlide.length() < 103){
 			rt.setFontSize(60);
@@ -237,7 +240,6 @@ public class GenerateDocPptByFile {
 //		rt.setBold(true);
 //		rt.setItalic(true);
 //		rt.setUnderlined(true);
-//		rt.setFontColor(Color.red);
 //		rt.setAlignment(TextBox.AlignRight);
 	}
 
