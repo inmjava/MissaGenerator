@@ -1,12 +1,15 @@
-Novena;http://www.cifraclub.com.br/maria-do-rosario/louvando-a-maria/imprimir.html
-Entrada;http://www.cifraclub.com.br/catolicas/o-senhor-esta-prachegar/imprimir.html
+Interiorização;http://www.cifraclub.com.br/harpa-crista/renova-me-senhor-jesus//imprimir.html
+Entrada;http://www.cifraclub.com.br/padre-zezinho/es-agua-viva/imprimir.html
 Penitencial;http://www.cifraclub.com.br/paulo-roberto/perdao-senhor/imprimir.html
-Glória;http://www.cifraclub.com.br/catolicas/gloria-a-deus-nos-altos-ceus/imprimir.html
+Glória;http://www.cifraclub.com.br/catolica/gloria-ao-pai-criador-do-mundo/imprimir.html
+Salmo;http://liturgia.cancaonova.com/liturgia/batismo-do-senhor-domingo-11012015/
 Aleluia;http://www.cifraclub.com.br/ministerio-de-musica-jovens-em-cristo/ponho-me-a-ouvir/imprimir.html
-Salmo;http://liturgia.cancaonova.com/liturgia/sao-francisco-xavier-quarta-feira-03122014/
-Ofertório;http://www.cifraclub.com.br/catolicas/venho-senhor-oferecer/imprimir.html
+Ofertório;http://www.cifraclub.com.br/padre-zeca/meu-coracao-para-ti/imprimir.html
 Santo;http://www.cifraclub.com.br/catolicas/santo-deus-do-universo/imprimir.html
-Comunhão;http://www.cifraclub.com.br/catolicas/salmo-22-pelos-prados/imprimir.html
-Final 0;http://www.cifraclub.com.br/paulo-roberto/consagracao-nossa-senhora/imprimir.html
-Final 1;http://www.cifraclub.com.br/dunga/agora-posso-cantar/imprimir.html
-Final 2;http://www.cifraclub.com.br/catolicas/deus-10/imprimir.html
+Comunhão;http://www.cifraclub.com.br/vida-reluz/como-es-lindo/imprimir.html
+Pós Comunhão;http://www.cifraclub.com.br/adriana/qual-a-chave/imprimir.html
+Final;http://www.cifraclub.com.br/anjos-de-resgate-musicas/mae-da-fe/imprimir.html
+Final 1;http://www.cifraclub.com.br/paulo-roberto/consagracao-nossa-senhora/imprimir.html
+Final 2;http://www.cifraclub.com.br/catolicas/pelas-estradas-da-vida/imprimir.html
+Final 3;http://www.cifraclub.com.br/dunga/agora-posso-cantar/imprimir.html
+Final 4;http://www.cifraclub.com.br/catolicas/deus-10/imprimir.html
